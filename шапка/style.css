@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+button {
+  background-color: white;
+}
+
+/*Начало работы*/
+header {
+  width: 1920px;
+
+  font-family: "Open Sans", sans-serif;
+}
+.First_line {
+  padding-top: 10px;
+  height: 36px;
+  padding-left: 400px;
+  background-color: #f8f8f8;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+.Citi {
+  padding-left: 10px;
+}
+.Shop {
+  padding-left: 90px;
+}
+.Buyers {
+  padding-left: 24px;
+  padding-right: 5px;
+}
+.Legal {
+  padding-left: 20px;
+  padding-right: 5px;
+}
+.Number {
+  padding-left: 340px;
+  color: #696969;
+}
+
+.Second_line {
+  padding-left: 400px;
+  padding-top: 50px;
+}
+.Background_red {
+  width: 56px;
+  height: 48px;
+  position: absolute;
+  margin-top: -48px;
+  margin-left: 536px;
+}
+input {
+  border: 1px solid #d4d4d4;
+  border-radius: 3px;
+  margin-left: 182px;
+  margin-top: -100px;
+  width: 356px;
+  height: 48px;
+  padding-left: 15px;
+}
+.Lupa {
+  position: absolute;
+  margin-top: -37px;
+  margin-left: 551px;
+}
+.Favorites {
+  background-color: #f8f8f8;
+  position: absolute;
+  margin-top: -48px;
+  margin-left: 644px;
+  width: 182px;
+  height: 48px;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+}
+.Lover {
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 664px;
+}
+.Number3 {
+  position: absolute;
+  margin-top: -34px;
+  margin-left: 794px;
+}
+.Hs {
+  position: absolute;
+  margin-top: -37px;
+  margin-left: 844px;
+}
+.Compare {
+  position: absolute;
+  margin-top: -34px;
+  margin-left: 884px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+}
+.Shopping {
+  position: absolute;
+  margin-top: -34px;
+  margin-left: 984px;
+}
+.Basket {
+  position: absolute;
+  margin-top: -34px;
+  margin-left: 1024px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+}
+.Number7 {
+  position: absolute;
+  margin-top: -34px;
+  margin-left: 1094px;
+}
+.Number77 {
+  position: absolute;
+  margin-top: -31px;
+  margin-left: 1098px;
+}
+.Image {
+  position: absolute;
+  margin-top: -35px;
+}
+
+.Third_line {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 25px;
+  background-color: #f8f8f8;
+}
+.Catalog {
+  width: 136px;
+  height: 48px;
+  background-color: red;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: white;
+  padding-left: 25px;
+}
+.Group {
+  position: absolute;
+  padding-top: 17px;
+  padding-left: 15px;
+}
+.Q {
+  padding-left: 4px;
+  background-color: #f8f8f8;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  height: 40px;
+}
+.Briefcase {
+  position: absolute;
+  padding-top: 17px;
+  padding-left: 25px;
+}
+.Qe {
+  margin-left: 10px;
+  padding-left: 20px;
+  height: 50px;
+  width: 180px;
+  background-color: #eeeeee;
+  background-color: #eeeeee;
+}
+.QQ {
+  padding-left: 4px;
+  background-color: #f8f8f8;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  height: 40px;
+  padding-right: 20px;
+  border-right: 1px solid#eeeeee;
+}
+.Discount {
+  color: red;
+  background-color: #f8f8f8;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  padding-left: 55px;
+}
+.I {
+  padding-top: 17px;
+  padding-left: 15px;
+}
+.Ii {
+  position: absolute;
+  padding-top: 17px;
+  margin-left: -140px;
+}
